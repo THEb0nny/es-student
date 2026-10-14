@@ -3,6 +3,14 @@
 
 const uint LED_PIN = 16;
 const uint BUTTON_PIN = 15; // объявляем константу вывода светодиода
+const uint DEBOUNCE_MS = 100;
+
+bool get_button_debounce(uint pin)
+{
+    bool state = gpio_get(pin);
+    sleep_ms(DEBOUNCE_MS);
+    return state && gpio_get(pin);
+}
 
 int main()
 {
@@ -18,7 +26,7 @@ int main()
 
     while (1)
     {
-        bool current = gpio_get(BUTTON_PIN);
+        bool current = get_button_debounce(BUTTON_PIN);
         if (previous == true && current == false)
         {
             led = !led;
