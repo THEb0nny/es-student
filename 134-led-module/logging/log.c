@@ -1,4 +1,5 @@
 #include "log.h"
+#include "device.h"
 
 // Печатает информацию о приборе, прошивке и времени компиляции
 void log_version(void)

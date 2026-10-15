@@ -2,7 +2,8 @@
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 #include "led.h"
-#include "log.h" // Подключаем наш модуль логирования
+#include "log.h"
+#include "device.h"
 
 const uint BUTTON_PIN = 15; // объявляем константу вывода светодиода
 const uint DEBOUNCE_MS = 10;
@@ -30,6 +31,9 @@ void handle_command(int command)
     {
         log_version();
     }
+    else if (command == 'i') {
+        device_info();
+    } 
     else
     {
         LOG_ERR("unknown command: %c\n", command);
