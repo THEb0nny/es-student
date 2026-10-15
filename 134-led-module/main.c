@@ -3,7 +3,6 @@
 #include "hardware/gpio.h"
 #include "led.h"
 
-// const uint LED_PIN = 16;
 const uint BUTTON_PIN = 15; // объявляем константу вывода светодиода
 const uint DEBOUNCE_MS = 10;
 
