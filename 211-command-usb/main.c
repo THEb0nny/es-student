@@ -14,42 +14,67 @@ const uint DEBOUNCE_MS = 10;
 char line[LINE_SIZE];
 uint line_length = 0;
 
-bool get_button_debounce(uint pin)
-{
-    bool state = gpio_get(pin);
-    sleep_ms(DEBOUNCE_MS);
-    return state && gpio_get(pin);
+// Описание типа обработчика и структуры
+typedef void (*command_handler_t)(void);
+
+struct command_t {
+    const char *name;
+    command_handler_t handler;
+};
+
+// Функции-обработчики команд
+void cmd_enable(void) {
+    led_set(true);
+    LOG_INF("led %s\n", led_is_on() ? "on" : "off");
 }
 
-void handle_command(const char *command)
-{
-    if (strcmp(command, "enable") == 0)
+void cmd_disable(void) {
+    led_set(false);
+    LOG_INF("led %s\n", led_is_on() ? "on" : "off");
+}
+
+void cmd_version(void) {
+    log_version();
+}
+
+void cmd_info(void) {
+    device_info();
+}
+
+void cmd_ping(void) {
+    printf("pong\n");
+}
+
+// Таблица команд (хранится во Flash благодаря const)
+const struct command_t commands[] = {
+    { "enable", cmd_enable },
+    { "disable", cmd_disable },
+    { "version", cmd_version },
+    { "info", cmd_info },
+    { "ping", cmd_ping }
+};
+
+#define COMMAND_COUNT (sizeof(commands) / sizeof(commands[0]))
+
+void handle_command(const char *command) {
+    for (uint i = 0; i < COMMAND_COUNT; i++)
     {
-        led_set(true);
-        LOG_INF("led %s\n", led_is_on() ? "on" : "off");
+        if (strcmp(command, commands[i].name) == 0)
+        {
+            // Защита от нулевого указателя
+            if (commands[i].handler != NULL)
+            {
+                commands[i].handler();
+            }
+            return;
+        }
     }
-    else if (strcmp(command, "disable") == 0)
-    {
-        led_set(false);
-        LOG_INF("led %s\n", led_is_on() ? "on" : "off");
-    }
-    else if (strcmp(command, "version") == 0)
-    {
-        log_version();
-    }
-    else if (strcmp(command, "info") == 0) {
-        device_info();
-    } 
-    else
-    {
-        LOG_ERR("unknown command: %s\n", command);
-    }
+    LOG_ERR("unknown command: %s\n", command);
 }
 
 void read_line(void)
 {
     int symbol = getchar_timeout_us(0);
-
     if (symbol == PICO_ERROR_TIMEOUT)
     {
         return;
@@ -78,6 +103,13 @@ void read_line(void)
     }
 }
 
+bool get_button_debounce(uint pin)
+{
+    bool state = gpio_get(pin);
+    sleep_ms(DEBOUNCE_MS);
+    return state && gpio_get(pin);
+}
+
 int main()
 {
     stdio_init_all();
@@ -102,7 +134,5 @@ int main()
 
         read_line();
         LOG_DBG("got %s\n", line);
-
-        handle_command(line);
     }
 }
