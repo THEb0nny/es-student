@@ -1,0 +1,1422 @@
+задание: 2.1.1
+проект: 211-command-usb
+устройство: 2e8a:000a
+серийный номер: 5044506120A4911C
+порт: COM6
+начало: 2026-10-16T11:46:07
+   0.000 --> enable
+   0.015 <-- edbg main:104 got e
+   0.015 <-- err handle_command:45 unknown command: e
+   0.015 <-- ndbg main:104 got en
+   0.015 <-- err handle_command:45 unknown command: en
+   0.031 <-- adbg main:104 got ena
+   0.031 <-- err handle_command:45 unknown command: ena
+   0.047 <-- bdbg main:104 got enab
+   0.062 <-- err handle_command:45 unknown command: enab
+   0.078 <-- ldbg main:104 got enabl
+   0.109 <-- err handle_command:45 unknown command: enabl
+   0.140 <-- edbg main:104 got enable
+   0.172 <-- inf handle_command:29 led on
+   0.172 <-- dbg read_line:65 got enable
+   0.187 <-- inf handle_command:29 led on
+   0.234 <-- dbg main:104 got enable
+   0.250 <-- inf handle_command:29 led on
+   0.250 <-- dbg main:104 got enable
+   0.250 <-- inf handle_command:29 led on
+   0.265 <-- dbg main:104 got enable
+   0.265 <-- inf handle_command:29 led on
+   0.265 <-- dbg main:104 got enable
+   0.265 <-- inf handle_command:29 led on
+   0.265 <-- dbg main:104 got enable
+   0.265 <-- inf handle_command:29 led on
+   0.281 <-- dbg main:104 got enable
+   0.281 <-- inf handle_command:29 led on
+   0.281 <-- dbg main:104 got enable
+   0.281 <-- inf handle_command:29 led on
+   0.297 <-- dbg main:104 got enable
+   0.328 <-- inf handle_command:29 led on
+   0.328 <-- dbg main:104 got enable
+   0.328 <-- inf handle_command:29 led on
+   0.344 <-- dbg main:104 got enable
+   0.344 <-- inf handle_command:29 led on
+   0.344 <-- dbg main:104 got enable
+   0.344 <-- inf handle_command:29 led on
+   0.344 <-- dbg main:104 got enable
+   0.344 <-- inf handle_command:29 led on
+   0.344 <-- dbg main:104 got enable
+   0.359 <-- inf handle_command:29 led on
+   0.359 <-- dbg main:104 got enable
+   0.359 <-- inf handle_command:29 led on
+   0.359 <-- dbg main:104 got enable
+   0.359 <-- inf handle_command:29 led on
+   0.359 <-- dbg main:104 got enable
+   0.375 <-- inf handle_command:29 led on
+   0.375 <-- dbg main:104 got enable
+   0.375 <-- inf handle_command:29 led on
+   0.375 <-- dbg main:104 got enable
+   0.375 <-- inf handle_command:29 led on
+   0.375 <-- dbg main:104 got enable
+   0.375 <-- inf handle_command:29 led on
+   0.375 <-- dbg main:104 got enable
+   0.390 <-- inf handle_command:29 led on
+   0.390 <-- dbg main:104 got enable
+   0.390 <-- inf handle_command:29 led on
+   0.406 <-- dbg main:104 got enable
+   0.406 <-- inf handle_command:29 led on
+   0.406 <-- dbg main:104 got enable
+   0.422 <-- inf handle_command:29 led on
+   0.422 <-- dbg main:104 got enable
+   0.437 <-- inf handle_command:29 led on
+   0.437 <-- dbg main:104 got enable
+   0.437 <-- inf handle_command:29 led on
+   0.437 <-- dbg main:104 got enable
+   0.453 <-- inf handle_command:29 led on
+   0.453 <-- dbg main:104 got enable
+   0.453 <-- inf handle_command:29 led on
+   0.453 <-- dbg main:104 got enable
+   0.453 <-- inf handle_command:29 led on
+   0.469 <-- dbg main:104 got enable
+   0.469 <-- inf handle_command:29 led on
+   0.469 <-- dbg main:104 got enable
+   0.469 <-- inf handle_command:29 led on
+   0.469 <-- dbg main:104 got enable
+   0.469 <-- inf handle_command:29 led on
+   0.484 <-- dbg main:104 got enable
+   0.484 <-- inf handle_command:29 led on
+   0.484 <-- dbg main:104 got enable
+   0.484 <-- inf handle_command:29 led on
+   0.484 <-- dbg main:104 got enable
+   0.500 <-- inf handle_command:29 led on
+   0.500 <-- dbg main:104 got enable
+   0.500 <-- inf handle_command:29 led on
+   0.500 <-- dbg main:104 got enable
+   0.515 <-- inf handle_command:29 led on
+   0.515 <-- dbg main:104 got enable
+   0.515 <-- inf handle_command:29 led on
+   0.531 <-- dbg main:104 got enable
+   0.531 <-- inf handle_command:29 led on
+   0.531 <-- dbg main:104 got enable
+   0.547 <-- inf handle_command:29 led on
+   0.547 <-- dbg main:104 got enable
+   0.562 <-- inf handle_command:29 led on
+   0.562 <-- dbg main:104 got enable
+   0.562 <-- inf handle_command:29 led on
+   0.562 <-- dbg main:104 got enable
+   0.562 <-- inf handle_command:29 led on
+   0.578 <-- dbg main:104 got enable
+   0.578 <-- inf handle_command:29 led on
+   0.578 <-- dbg main:104 got enable
+   0.578 <-- inf handle_command:29 led on
+   0.594 <-- dbg main:104 got enable
+   0.594 <-- inf handle_command:29 led on
+   0.594 <-- dbg main:104 got enable
+   0.594 <-- inf handle_command:29 led on
+   0.594 <-- dbg main:104 got enable
+   0.609 <-- inf handle_command:29 led on
+   0.609 <-- dbg main:104 got enable
+   0.609 <-- inf handle_command:29 led on
+   0.609 <-- dbg main:104 got enable
+   0.609 <-- inf handle_command:29 led on
+   0.609 <-- dbg main:104 got enable
+   0.625 <-- inf handle_command:29 led on
+   0.625 <-- dbg main:104 got enable
+   0.625 <-- inf handle_command:29 led on
+   0.625 <-- dbg main:104 got enable
+   0.625 <-- inf handle_command:29 led on
+   0.625 <-- dbg main:104 got enable
+   0.640 <-- inf handle_command:29 led on
+   0.640 <-- dbg main:104 got enable
+   0.640 <-- inf handle_command:29 led on
+   0.656 <-- dbg main:104 got enable
+   0.656 <-- inf handle_command:29 led on
+   0.656 <-- dbg main:104 got enable
+   0.656 <-- inf handle_command:29 led on
+   0.672 <-- dbg main:104 got enable
+   0.672 <-- inf handle_command:29 led on
+   0.672 <-- dbg main:104 got enable
+   0.672 <-- inf handle_command:29 led on
+   0.687 <-- dbg main:104 got enable
+   0.687 <-- inf handle_command:29 led on
+   0.719 <-- dbg main:104 got enable
+   0.719 <-- inf handle_command:29 led on
+   0.734 <-- dbg main:104 got enable
+   0.734 <-- inf handle_command:29 led on
+   0.750 <-- dbg main:104 got enable
+   0.750 <-- inf handle_command:29 led on
+   0.750 <-- dbg main:104 got enable
+   0.765 <-- inf handle_command:29 led on
+   0.765 <-- dbg main:104 got enable
+   0.781 <-- inf handle_command:29 led on
+   0.781 <-- dbg main:104 got enable
+   0.781 <-- inf handle_command:29 led on
+   0.781 <-- dbg main:104 got enable
+   0.797 <-- inf handle_command:29 led on
+   0.797 <-- dbg main:104 got enable
+   0.812 <-- inf handle_command:29 led on
+   0.812 <-- dbg main:104 got enable
+   0.812 <-- inf handle_command:29 led on
+   0.812 <-- dbg main:104 got enable
+   0.812 <-- inf handle_command:29 led on
+   0.828 <-- dbg main:104 got enable
+   0.828 <-- inf handle_command:29 led on
+   0.828 <-- dbg main:104 got enable
+   0.844 <-- inf handle_command:29 led on
+   0.844 <-- dbg main:104 got enable
+   0.844 <-- inf handle_command:29 led on
+   0.859 <-- dbg main:104 got enable
+   0.859 <-- inf handle_command:29 led on
+   0.859 <-- dbg main:104 got enable
+   0.875 <-- inf handle_command:29 led on
+   0.875 <-- dbg main:104 got enable
+   0.875 <-- inf handle_command:29 led on
+   0.890 <-- dbg main:104 got enable
+   0.890 <-- inf handle_command:29 led on
+   0.890 <-- dbg main:104 got enable
+   0.890 <-- inf handle_command:29 led on
+   0.906 <-- dbg main:104 got enable
+   0.906 <-- inf handle_command:29 led on
+   0.906 <-- dbg main:104 got enable
+   0.906 <-- inf handle_command:29 led on
+   0.906 <-- dbg main:104 got enable
+   0.922 <-- inf handle_command:29 led on
+   0.922 <-- dbg main:104 got enable
+   0.937 <-- inf handle_command:29 led on
+   0.937 <-- dbg main:104 got enable
+   0.953 <-- inf handle_command:29 led on
+   0.984 <-- dbg main:104 got enable
+   0.984 <-- inf handle_command:29 led on
+   1.000 <-- dbg main:104 got enable
+   1.000 <-- inf handle_command:29 led on
+   1.015 <-- dbg main:104 got enable
+   1.015 <-- inf handle_command:29 led on
+   1.015 <-- dbg main:104 got enable
+   1.015 <-- inf handle_command:29 led on
+   1.031 <-- dbg main:104 got enable
+   1.031 <-- inf handle_command:29 led on
+   1.031 <-- dbg main:104 got enable
+   1.031 <-- inf handle_command:29 led on
+   1.047 <-- dbg main:104 got enable
+   1.047 <-- inf handle_command:29 led on
+   1.047 <-- dbg main:104 got enable
+   1.062 <-- inf handle_command:29 led on
+   1.062 <-- dbg main:104 got enable
+   1.062 <-- inf handle_command:29 led on
+   1.062 <-- dbg main:104 got enable
+   1.078 <-- inf handle_command:29 led on
+   1.078 <-- dbg main:104 got enable
+   1.078 <-- inf handle_command:29 led on
+   1.078 <-- dbg main:104 got enable
+   1.094 <-- inf handle_command:29 led on
+   1.094 <-- dbg main:104 got enable
+   1.094 <-- inf handle_command:29 led on
+   1.094 <-- dbg main:104 got enable
+   1.109 <-- inf handle_command:29 led on
+   1.109 <-- dbg main:104 got enable
+   1.125 <-- inf handle_command:29 led on
+   1.140 <-- dbg main:104 got enable
+   1.172 <-- inf handle_command:29 led on
+   1.172 <-- dbg main:104 got enable
+   1.172 <-- inf handle_command:29 led on
+   1.187 <-- dbg main:104 got enable
+   1.187 <-- inf handle_command:29 led on
+   1.203 <-- dbg main:104 got enable
+   1.203 <-- inf handle_command:29 led on
+   1.203 <-- dbg main:104 got enable
+   1.203 <-- inf handle_command:29 led on
+   1.219 <-- dbg main:104 got enable
+   1.219 <-- inf handle_command:29 led on
+   1.219 <-- dbg main:104 got enable
+   1.234 <-- inf handle_command:29 led on
+   1.234 <-- dbg main:104 got enable
+   1.234 <-- inf handle_command:29 led on
+   1.250 <-- dbg main:104 got enable
+   1.250 <-- inf handle_command:29 led on
+   1.265 <-- dbg main:104 got enable
+   1.265 <-- inf handle_command:29 led on
+   1.281 <-- dbg main:104 got enable
+   1.297 <-- inf handle_command:29 led on
+   1.312 <-- dbg main:104 got enable
+   1.312 <-- inf handle_command:29 led on
+   1.328 <-- dbg main:104 got enable
+   1.328 <-- inf handle_command:29 led on
+   1.344 <-- dbg main:104 got enable
+   1.344 <-- inf handle_command:29 led on
+   1.344 <-- dbg main:104 got enable
+   1.359 <-- inf handle_command:29 led on
+   1.359 <-- dbg main:104 got enable
+   1.375 <-- inf handle_command:29 led on
+   1.390 <-- dbg main:104 got enable
+   1.390 <-- inf handle_command:29 led on
+   1.406 <-- dbg main:104 got enable
+   1.406 <-- inf handle_command:29 led on
+   1.422 <-- dbg main:104 got enable
+   1.422 <-- inf handle_command:29 led on
+   1.422 <-- dbg main:104 got enable
+   1.437 <-- inf handle_command:29 led on
+   1.437 <-- dbg main:104 got enable
+   1.437 <-- inf handle_command:29 led on
+   1.453 <-- dbg main:104 got enable
+   1.453 <-- inf handle_command:29 led on
+   1.469 <-- dbg main:104 got enable
+   1.469 <-- inf handle_command:29 led on
+   1.469 <-- dbg main:104 got enable
+   1.484 <-- inf handle_command:29 led on
+   1.484 <-- dbg main:104 got enable
+   1.500 <-- inf handle_command:29 led on
+   1.500 <-- dbg main:104 got enable
+   1.500 <-- inf handle_command:29 led on
+   1.500 <-- dbg main:104 got enable
+   1.515 <-- inf handle_command:29 led on
+   1.515 <-- dbg main:104 got enable
+   1.515 <-- inf handle_command:29 led on
+   1.515 <-- dbg main:104 got enable
+   1.531 <-- inf handle_command:29 led on
+   1.531 <-- dbg main:104 got enable
+   1.547 <-- inf handle_command:29 led on
+   1.547 <-- dbg main:104 got enable
+   1.547 <-- inf handle_command:29 led on
+   1.547 <-- dbg main:104 got enable
+   1.562 <-- inf handle_command:29 led on
+   1.562 <-- dbg main:104 got enable
+   1.562 <-- inf handle_command:29 led on
+   1.578 <-- dbg main:104 got enable
+   1.578 <-- inf handle_command:29 led on
+   1.578 <-- dbg main:104 got enable
+   1.594 <-- inf handle_command:29 led on
+   1.609 <-- dbg main:104 got enable
+   1.609 <-- inf handle_command:29 led on
+   1.609 <-- dbg main:104 got enable
+   1.625 <-- inf handle_command:29 led on
+   1.625 <-- dbg main:104 got enable
+   1.625 <-- inf handle_command:29 led on
+   1.625 <-- dbg main:104 got enable
+   1.640 <-- inf handle_command:29 led on
+   1.640 <-- dbg main:104 got enable
+   1.640 <-- inf handle_command:29 led on
+   1.640 <-- dbg main:104 got enable
+   1.656 <-- inf handle_command:29 led on
+   1.656 <-- dbg main:104 got enable
+   1.656 <-- inf handle_command:29 led on
+   1.656 <-- dbg main:104 got enable
+   1.672 <-- inf handle_command:29 led on
+   1.672 <-- dbg main:104 got enable
+   1.687 <-- inf handle_command:29 led on
+   1.687 <-- dbg main:104 got enable
+   1.687 <-- inf handle_command:29 led on
+   1.703 <-- dbg main:104 got enable
+   1.703 <-- inf handle_command:29 led on
+   1.719 <-- dbg main:104 got enable
+   1.719 <-- inf handle_command:29 led on
+   1.734 <-- dbg main:104 got enable
+   1.734 <-- inf handle_command:29 led on
+   1.750 <-- dbg main:104 got enable
+   1.750 <-- inf handle_command:29 led on
+   1.750 <-- dbg main:104 got enable
+   1.750 <-- inf handle_command:29 led on
+   1.765 <-- dbg main:104 got enable
+   1.765 <-- inf handle_command:29 led on
+   1.765 <-- dbg main:104 got enable
+   1.781 <-- inf handle_command:29 led on
+   1.781 <-- dbg main:104 got enable
+   1.781 <-- inf handle_command:29 led on
+   1.797 <-- dbg main:104 got enable
+   1.812 <-- inf handle_command:29 led on
+   1.812 <-- dbg main:104 got enable
+   1.828 <-- inf handle_command:29 led on
+   1.844 <-- dbg main:104 got enable
+   1.859 <-- inf handle_command:29 led on
+   1.875 <-- dbg main:104 got enable
+   1.890 <-- inf handle_command:29 led on
+   1.890 <-- dbg main:104 got enable
+   1.922 <-- inf handle_command:29 led on
+   1.922 <-- dbg main:104 got enable
+   1.922 <-- inf handle_command:29 led on
+   1.937 <-- dbg main:104 got enable
+   1.937 <-- inf handle_command:29 led on
+   1.953 <-- dbg main:104 got enable
+   1.953 <-- inf handle_command:29 led on
+   1.953 <-- dbg main:104 got enable
+   1.969 <-- inf handle_command:29 led on
+   1.984 <-- dbg main:104 got enable
+   1.984 <-- inf handle_command:29 led on
+   2.000 <-- dbg main:104 got enable
+   2.000 --> disable
+   2.000 <-- inf handle_command:29 led on
+   2.015 <-- dbg main:104 got enable
+   2.015 <-- inf handle_command:29 led on
+   2.015 <-- dbg main:104 got enable
+   2.031 <-- inf handle_command:29 led on
+   2.031 <-- dbg main:104 got enable
+   2.031 <-- inf handle_command:29 led on
+   2.047 <-- dbg main:104 got enable
+   2.047 <-- inf handle_command:29 led on
+   2.047 <-- dbg main:104 got enable
+   2.062 <-- inf handle_command:29 led on
+   2.062 <-- dbg main:104 got enable
+   2.062 <-- inf handle_command:29 led on
+   2.078 <-- dbg main:104 got enable
+   2.078 <-- inf handle_command:29 led on
+   2.078 <-- dbg main:104 got enable
+   2.094 <-- inf handle_command:29 led on
+   2.094 <-- dbg main:104 got enable
+   2.094 <-- inf handle_command:29 led on
+   2.109 <-- dbg main:104 got enable
+   2.109 <-- inf handle_command:29 led on
+   2.125 <-- dbg main:104 got enable
+   2.125 <-- inf handle_command:29 led on
+   2.140 <-- dbg main:104 got enable
+   2.140 <-- inf handle_command:29 led on
+   2.156 <-- dbg main:104 got enable
+   2.172 <-- inf handle_command:29 led on
+   2.187 <-- dbg main:104 got enable
+   2.187 <-- inf handle_command:29 led on
+   2.187 <-- dbg main:104 got enable
+   2.203 <-- inf handle_command:29 led on
+   2.203 <-- dbg main:104 got enable
+   2.219 <-- inf handle_command:29 led on
+   2.219 <-- dbg main:104 got enable
+   2.219 <-- inf handle_command:29 led on
+   2.219 <-- dbg main:104 got enable
+   2.234 <-- inf handle_command:29 led on
+   2.250 <-- dbg main:104 got enable
+   2.250 <-- inf handle_command:29 led on
+   2.265 <-- dbg main:104 got enable
+   2.265 <-- inf handle_command:29 led on
+   2.265 <-- dbg main:104 got enable
+   2.265 <-- inf handle_command:29 led on
+   2.281 <-- dbg main:104 got enable
+   2.281 <-- inf handle_command:29 led on
+   2.281 <-- dbg main:104 got enable
+   2.297 <-- inf handle_command:29 led on
+   2.297 <-- dbg main:104 got enable
+   2.312 <-- inf handle_command:29 led on
+   2.312 <-- dbg main:104 got enable
+   2.328 <-- inf handle_command:29 led on
+   2.328 <-- dbg main:104 got enable
+   2.328 <-- inf handle_command:29 led on
+   2.344 <-- dbg main:104 got enable
+   2.344 <-- inf handle_command:29 led on
+   2.344 <-- dbg main:104 got enable
+   2.359 <-- inf handle_command:29 led on
+   2.359 <-- ddbg main:104 got dnable
+   2.375 <-- err handle_command:45 unknown command: dnable
+   2.375 <-- idbg main:104 got diable
+   2.375 <-- err handle_command:45 unknown command: diable
+   2.390 <-- sdbg main:104 got disble
+   2.390 <-- err handle_command:45 unknown command: disble
+   2.406 <-- adbg main:104 got disale
+   2.406 <-- err handle_command:45 unknown command: disale
+   2.422 <-- bdbg main:104 got disabe
+   2.437 <-- err handle_command:45 unknown command: disabe
+   2.437 <-- ldbg main:104 got disabl
+   2.437 <-- err handle_command:45 unknown command: disabl
+   2.453 <-- edbg main:104 got disable
+   2.453 <-- inf handle_command:34 led off
+   2.469 <-- dbg read_line:65 got disable
+   2.469 <-- inf handle_command:34 led off
+   2.469 <-- dbg main:104 got disable
+   2.484 <-- inf handle_command:34 led off
+   2.484 <-- dbg main:104 got disable
+   2.484 <-- inf handle_command:34 led off
+   2.484 <-- dbg main:104 got disable
+   2.500 <-- inf handle_command:34 led off
+   2.500 <-- dbg main:104 got disable
+   2.515 <-- inf handle_command:34 led off
+   2.515 <-- dbg main:104 got disable
+   2.531 <-- inf handle_command:34 led off
+   2.531 <-- dbg main:104 got disable
+   2.531 <-- inf handle_command:34 led off
+   2.547 <-- dbg main:104 got disable
+   2.547 <-- inf handle_command:34 led off
+   2.547 <-- dbg main:104 got disable
+   2.562 <-- inf handle_command:34 led off
+   2.562 <-- dbg main:104 got disable
+   2.578 <-- inf handle_command:34 led off
+   2.578 <-- dbg main:104 got disable
+   2.578 <-- inf handle_command:34 led off
+   2.578 <-- dbg main:104 got disable
+   2.594 <-- inf handle_command:34 led off
+   2.609 <-- dbg main:104 got disable
+   2.609 <-- inf handle_command:34 led off
+   2.609 <-- dbg main:104 got disable
+   2.625 <-- inf handle_command:34 led off
+   2.625 <-- dbg main:104 got disable
+   2.625 <-- inf handle_command:34 led off
+   2.625 <-- dbg main:104 got disable
+   2.640 <-- inf handle_command:34 led off
+   2.640 <-- dbg main:104 got disable
+   2.640 <-- inf handle_command:34 led off
+   2.656 <-- dbg main:104 got disable
+   2.656 <-- inf handle_command:34 led off
+   2.656 <-- dbg main:104 got disable
+   2.656 <-- inf handle_command:34 led off
+   2.672 <-- dbg main:104 got disable
+   2.672 <-- inf handle_command:34 led off
+   2.672 <-- dbg main:104 got disable
+   2.672 <-- inf handle_command:34 led off
+   2.687 <-- dbg main:104 got disable
+   2.687 <-- inf handle_command:34 led off
+   2.687 <-- dbg main:104 got disable
+   2.703 <-- inf handle_command:34 led off
+   2.703 <-- dbg main:104 got disable
+   2.703 <-- inf handle_command:34 led off
+   2.703 <-- dbg main:104 got disable
+   2.719 <-- inf handle_command:34 led off
+   2.719 <-- dbg main:104 got disable
+   2.719 <-- inf handle_command:34 led off
+   2.719 <-- dbg main:104 got disable
+   2.734 <-- inf handle_command:34 led off
+   2.734 <-- dbg main:104 got disable
+   2.750 <-- inf handle_command:34 led off
+   2.750 <-- dbg main:104 got disable
+   2.750 <-- inf handle_command:34 led off
+   2.750 <-- dbg main:104 got disable
+   2.765 <-- inf handle_command:34 led off
+   2.765 <-- dbg main:104 got disable
+   2.765 <-- inf handle_command:34 led off
+   2.765 <-- dbg main:104 got disable
+   2.765 <-- inf handle_command:34 led off
+   2.781 <-- dbg main:104 got disable
+   2.781 <-- inf handle_command:34 led off
+   2.797 <-- dbg main:104 got disable
+   2.797 <-- inf handle_command:34 led off
+   2.797 <-- dbg main:104 got disable
+   2.812 <-- inf handle_command:34 led off
+   2.812 <-- dbg main:104 got disable
+   2.812 <-- inf handle_command:34 led off
+   2.812 <-- dbg main:104 got disable
+   2.828 <-- inf handle_command:34 led off
+   2.828 <-- dbg main:104 got disable
+   2.828 <-- inf handle_command:34 led off
+   2.828 <-- dbg main:104 got disable
+   2.844 <-- inf handle_command:34 led off
+   2.844 <-- dbg main:104 got disable
+   2.844 <-- inf handle_command:34 led off
+   2.859 <-- dbg main:104 got disable
+   2.859 <-- inf handle_command:34 led off
+   2.906 <-- dbg main:104 got disable
+   2.969 <-- inf handle_command:34 led off
+   3.078 <-- dbg main:104 got disable
+   3.094 <-- inf handle_command:34 led off
+   3.109 <-- dbg main:104 got disable
+   3.109 <-- inf handle_command:34 led off
+   3.109 <-- dbg main:104 got disable
+   3.109 <-- inf handle_command:34 led off
+   3.109 <-- dbg main:104 got disable
+   3.125 <-- inf handle_command:34 led off
+   3.125 <-- dbg main:104 got disable
+   3.125 <-- inf handle_command:34 led off
+   3.172 <-- dbg main:104 got disable
+   3.187 <-- inf handle_command:34 led off
+   3.203 <-- dbg main:104 got disable
+   3.203 <-- inf handle_command:34 led off
+   3.219 <-- dbg main:104 got disable
+   3.219 <-- inf handle_command:34 led off
+   3.219 <-- dbg main:104 got disable
+   3.234 <-- inf handle_command:34 led off
+   3.234 <-- dbg main:104 got disable
+   3.234 <-- inf handle_command:34 led off
+   3.234 <-- dbg main:104 got disable
+   3.250 <-- inf handle_command:34 led off
+   3.250 <-- dbg main:104 got disable
+   3.250 <-- inf handle_command:34 led off
+   3.265 <-- dbg main:104 got disable
+   3.265 <-- inf handle_command:34 led off
+   3.281 <-- dbg main:104 got disable
+   3.281 <-- inf handle_command:34 led off
+   3.281 <-- dbg main:104 got disable
+   3.297 <-- inf handle_command:34 led off
+   3.328 <-- dbg main:104 got disable
+   3.359 <-- inf handle_command:34 led off
+   3.375 <-- dbg main:104 got disable
+   3.375 <-- inf handle_command:34 led off
+   3.406 <-- dbg main:104 got disable
+   3.406 <-- inf handle_command:34 led off
+   3.422 <-- dbg main:104 got disable
+   3.437 <-- inf handle_command:34 led off
+   3.453 <-- dbg main:104 got disable
+   3.469 <-- inf handle_command:34 led off
+   3.484 <-- dbg main:104 got disable
+   3.500 <-- inf handle_command:34 led off
+   3.515 <-- dbg main:104 got disable
+   3.515 <-- inf handle_command:34 led off
+   3.531 <-- dbg main:104 got disable
+   3.531 <-- inf handle_command:34 led off
+   3.531 <-- dbg main:104 got disable
+   3.547 <-- inf handle_command:34 led off
+   3.547 <-- dbg main:104 got disable
+   3.562 <-- inf handle_command:34 led off
+   3.562 <-- dbg main:104 got disable
+   3.578 <-- inf handle_command:34 led off
+   3.578 <-- dbg main:104 got disable
+   3.578 <-- inf handle_command:34 led off
+   3.594 <-- dbg main:104 got disable
+   3.594 <-- inf handle_command:34 led off
+   3.594 <-- dbg main:104 got disable
+   3.609 <-- inf handle_command:34 led off
+   3.609 <-- dbg main:104 got disable
+   3.625 <-- inf handle_command:34 led off
+   3.625 <-- dbg main:104 got disable
+   3.625 <-- inf handle_command:34 led off
+   3.625 <-- dbg main:104 got disable
+   3.640 <-- inf handle_command:34 led off
+   3.640 <-- dbg main:104 got disable
+   3.656 <-- inf handle_command:34 led off
+   3.656 <-- dbg main:104 got disable
+   3.672 <-- inf handle_command:34 led off
+   3.672 <-- dbg main:104 got disable
+   3.672 <-- inf handle_command:34 led off
+   3.672 <-- dbg main:104 got disable
+   3.687 <-- inf handle_command:34 led off
+   3.687 <-- dbg main:104 got disable
+   3.703 <-- inf handle_command:34 led off
+   3.703 <-- dbg main:104 got disable
+   3.703 <-- inf handle_command:34 led off
+   3.719 <-- dbg main:104 got disable
+   3.719 <-- inf handle_command:34 led off
+   3.719 <-- dbg main:104 got disable
+   3.734 <-- inf handle_command:34 led off
+   3.734 <-- dbg main:104 got disable
+   3.734 <-- inf handle_command:34 led off
+   3.750 <-- dbg main:104 got disable
+   3.750 <-- inf handle_command:34 led off
+   3.765 <-- dbg main:104 got disable
+   3.765 <-- inf handle_command:34 led off
+   3.781 <-- dbg main:104 got disable
+   3.797 <-- inf handle_command:34 led off
+   3.812 <-- dbg main:104 got disable
+   3.828 <-- inf handle_command:34 led off
+   3.828 <-- dbg main:104 got disable
+   3.844 <-- inf handle_command:34 led off
+   3.859 <-- dbg main:104 got disable
+   3.859 <-- inf handle_command:34 led off
+   3.859 <-- dbg main:104 got disable
+   3.875 <-- inf handle_command:34 led off
+   3.875 <-- dbg main:104 got disable
+   3.875 <-- inf handle_command:34 led off
+   3.875 <-- dbg main:104 got disable
+   3.890 <-- inf handle_command:34 led off
+   3.890 <-- dbg main:104 got disable
+   3.890 <-- inf handle_command:34 led off
+   3.906 <-- dbg main:104 got disable
+   3.906 <-- inf handle_command:34 led off
+   3.906 <-- dbg main:104 got disable
+   3.906 <-- inf handle_command:34 led off
+   3.906 <-- dbg main:104 got disable
+   3.922 <-- inf handle_command:34 led off
+   3.922 <-- dbg main:104 got disable
+   3.922 <-- inf handle_command:34 led off
+   3.937 <-- dbg main:104 got disable
+   3.937 <-- inf handle_command:34 led off
+   3.937 <-- dbg main:104 got disable
+   3.937 <-- inf handle_command:34 led off
+   3.953 <-- dbg main:104 got disable
+   3.953 <-- inf handle_command:34 led off
+   3.953 <-- dbg main:104 got disable
+   3.953 <-- inf handle_command:34 led off
+   3.969 <-- dbg main:104 got disable
+   3.969 <-- inf handle_command:34 led off
+   3.969 <-- dbg main:104 got disable
+   3.969 <-- inf handle_command:34 led off
+   3.984 <-- dbg main:104 got disable
+   3.984 <-- inf handle_command:34 led off
+   3.984 <-- dbg main:104 got disable
+   3.984 <-- inf handle_command:34 led off
+   3.984 <-- dbg main:104 got disable
+   4.000 <-- inf handle_command:34 led off
+   4.000 --> info
+   4.000 <-- dbg main:104 got disable
+   4.000 <-- inf handle_command:34 led off
+   4.000 <-- dbg main:104 got disable
+   4.015 <-- inf handle_command:34 led off
+   4.015 <-- dbg main:104 got disable
+   4.015 <-- inf handle_command:34 led off
+   4.015 <-- dbg main:104 got disable
+   4.031 <-- inf handle_command:34 led off
+   4.031 <-- dbg main:104 got disable
+   4.031 <-- inf handle_command:34 led off
+   4.047 <-- dbg main:104 got disable
+   4.047 <-- inf handle_command:34 led off
+   4.047 <-- dbg main:104 got disable
+   4.062 <-- inf handle_command:34 led off
+   4.062 <-- dbg main:104 got disable
+   4.078 <-- inf handle_command:34 led off
+   4.078 <-- dbg main:104 got disable
+   4.094 <-- inf handle_command:34 led off
+   4.094 <-- dbg main:104 got disable
+   4.094 <-- inf handle_command:34 led off
+   4.109 <-- dbg main:104 got disable
+   4.109 <-- inf handle_command:34 led off
+   4.125 <-- dbg main:104 got disable
+   4.125 <-- inf handle_command:34 led off
+   4.125 <-- dbg main:104 got disable
+   4.140 <-- inf handle_command:34 led off
+   4.140 <-- dbg main:104 got disable
+   4.140 <-- inf handle_command:34 led off
+   4.140 <-- dbg main:104 got disable
+   4.156 <-- inf handle_command:34 led off
+   4.156 <-- dbg main:104 got disable
+   4.156 <-- inf handle_command:34 led off
+   4.187 <-- dbg main:104 got disable
+   4.203 <-- inf handle_command:34 led off
+   4.219 <-- dbg main:104 got disable
+   4.219 <-- inf handle_command:34 led off
+   4.219 <-- dbg main:104 got disable
+   4.234 <-- inf handle_command:34 led off
+   4.234 <-- dbg main:104 got disable
+   4.234 <-- inf handle_command:34 led off
+   4.234 <-- dbg main:104 got disable
+   4.250 <-- inf handle_command:34 led off
+   4.250 <-- dbg main:104 got disable
+   4.265 <-- inf handle_command:34 led off
+   4.265 <-- dbg main:104 got disable
+   4.265 <-- inf handle_command:34 led off
+   4.281 <-- dbg main:104 got disable
+   4.281 <-- inf handle_command:34 led off
+   4.297 <-- dbg main:104 got disable
+   4.297 <-- inf handle_command:34 led off
+   4.297 <-- dbg main:104 got disable
+   4.312 <-- inf handle_command:34 led off
+   4.312 <-- dbg main:104 got disable
+   4.328 <-- inf handle_command:34 led off
+   4.328 <-- dbg main:104 got disable
+   4.328 <-- inf handle_command:34 led off
+   4.344 <-- dbg main:104 got disable
+   4.344 <-- inf handle_command:34 led off
+   4.359 <-- dbg main:104 got disable
+   4.359 <-- inf handle_command:34 led off
+   4.359 <-- dbg main:104 got disable
+   4.375 <-- inf handle_command:34 led off
+   4.390 <-- dbg main:104 got disable
+   4.406 <-- inf handle_command:34 led off
+   4.422 <-- dbg main:104 got disable
+   4.422 <-- inf handle_command:34 led off
+   4.437 <-- dbg main:104 got disable
+   4.437 <-- inf handle_command:34 led off
+   4.437 <-- dbg main:104 got disable
+   4.437 <-- inf handle_command:34 led off
+   4.453 <-- dbg main:104 got disable
+   4.453 <-- inf handle_command:34 led off
+   4.469 <-- dbg main:104 got disable
+   4.469 <-- inf handle_command:34 led off
+   4.484 <-- dbg main:104 got disable
+   4.484 <-- inf handle_command:34 led off
+   4.484 <-- dbg main:104 got disable
+   4.500 <-- inf handle_command:34 led off
+   4.500 <-- dbg main:104 got disable
+   4.500 <-- inf handle_command:34 led off
+   4.500 <-- dbg main:104 got disable
+   4.515 <-- inf handle_command:34 led off
+   4.515 <-- dbg main:104 got disable
+   4.515 <-- inf handle_command:34 led off
+   4.531 <-- dbg main:104 got disable
+   4.531 <-- inf handle_command:34 led off
+   4.531 <-- dbg main:104 got disable
+   4.547 <-- inf handle_command:34 led off
+   4.547 <-- dbg main:104 got disable
+   4.547 <-- inf handle_command:34 led off
+   4.547 <-- dbg main:104 got disable
+   4.562 <-- inf handle_command:34 led off
+   4.562 <-- dbg main:104 got disable
+   4.562 <-- inf handle_command:34 led off
+   4.578 <-- dbg main:104 got disable
+   4.578 <-- inf handle_command:34 led off
+   4.578 <-- dbg main:104 got disable
+   4.578 <-- inf handle_command:34 led off
+   4.594 <-- dbg main:104 got disable
+   4.594 <-- inf handle_command:34 led off
+   4.594 <-- dbg main:104 got disable
+   4.609 <-- inf handle_command:34 led off
+   4.609 <-- dbg main:104 got disable
+   4.609 <-- inf handle_command:34 led off
+   4.625 <-- dbg main:104 got disable
+   4.625 <-- inf handle_command:34 led off
+   4.625 <-- dbg main:104 got disable
+   4.640 <-- inf handle_command:34 led off
+   4.640 <-- dbg main:104 got disable
+   4.656 <-- inf handle_command:34 led off
+   4.656 <-- dbg main:104 got disable
+   4.672 <-- inf handle_command:34 led off
+   4.672 <-- dbg main:104 got disable
+   4.672 <-- inf handle_command:34 led off
+   4.687 <-- dbg main:104 got disable
+   4.687 <-- inf handle_command:34 led off
+   4.703 <-- dbg main:104 got disable
+   4.703 <-- inf handle_command:34 led off
+   4.719 <-- dbg main:104 got disable
+   4.719 <-- inf handle_command:34 led off
+   4.734 <-- dbg main:104 got disable
+   4.734 <-- inf handle_command:34 led off
+   4.750 <-- dbg main:104 got disable
+   4.750 <-- inf handle_command:34 led off
+   4.765 <-- dbg main:104 got disable
+   4.765 <-- inf handle_command:34 led off
+   4.765 <-- dbg main:104 got disable
+   4.781 <-- inf handle_command:34 led off
+   4.781 <-- dbg main:104 got disable
+   4.797 <-- inf handle_command:34 led off
+   4.797 <-- dbg main:104 got disable
+   4.828 <-- inf handle_command:34 led off
+   4.828 <-- dbg main:104 got disable
+   4.828 <-- inf handle_command:34 led off
+   4.844 <-- dbg main:104 got disable
+   4.844 <-- inf handle_command:34 led off
+   4.844 <-- dbg main:104 got disable
+   4.859 <-- inf handle_command:34 led off
+   4.859 <-- dbg main:104 got disable
+   4.859 <-- inf handle_command:34 led off
+   4.875 <-- dbg main:104 got disable
+   4.875 <-- inf handle_command:34 led off
+   4.890 <-- dbg main:104 got disable
+   4.890 <-- inf handle_command:34 led off
+   4.890 <-- dbg main:104 got disable
+   4.890 <-- inf handle_command:34 led off
+   4.906 <-- dbg main:104 got disable
+   4.906 <-- inf handle_command:34 led off
+   4.906 <-- dbg main:104 got disable
+   4.922 <-- inf handle_command:34 led off
+   4.922 <-- dbg main:104 got disable
+   4.922 <-- inf handle_command:34 led off
+   4.922 <-- dbg main:104 got disable
+   4.937 <-- inf handle_command:34 led off
+   4.937 <-- dbg main:104 got disable
+   4.937 <-- inf handle_command:34 led off
+   4.953 <-- dbg main:104 got disable
+   4.953 <-- inf handle_command:34 led off
+   4.969 <-- dbg main:104 got disable
+   4.969 <-- inf handle_command:34 led off
+   4.969 <-- dbg main:104 got disable
+   4.969 <-- inf handle_command:34 led off
+   4.984 <-- dbg main:104 got disable
+   4.984 <-- inf handle_command:34 led off
+   4.984 <-- dbg main:104 got disable
+   4.984 <-- inf handle_command:34 led off
+   5.000 <-- dbg main:104 got disable
+   5.000 <-- inf handle_command:34 led off
+   5.000 <-- dbg main:104 got disable
+   5.000 <-- inf handle_command:34 led off
+   5.015 <-- idbg main:104 got iisable
+   5.015 <-- err handle_command:45 unknown command: iisable
+   5.031 <-- ndbg main:104 got insable
+   5.031 <-- err handle_command:45 unknown command: insable
+   5.031 <-- fdbg main:104 got infable
+   5.047 <-- err handle_command:45 unknown command: infable
+   5.047 <-- odbg main:104 got infoble
+   5.047 <-- err handle_command:45 unknown command: infoble
+   5.062 <-- dbg read_line:65 got info
+   5.062 <-- project: 211-command-usb
+   5.062 <-- repo: https://github.com/THEb0nny/es-student
+   5.078 <-- board: pico
+   5.078 <-- serial: 5044506120A4911C
+   5.078 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.078 <-- pico-sdk: 2.3.1
+   5.094 <-- dbg main:104 got info
+   5.094 <-- project: 211-command-usb
+   5.094 <-- repo: https://github.com/THEb0nny/es-student
+   5.109 <-- board: pico
+   5.109 <-- serial: 5044506120A4911C
+   5.109 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.125 <-- pico-sdk: 2.3.1
+   5.125 <-- dbg main:104 got info
+   5.125 <-- project: 211-command-usb
+   5.140 <-- repo: https://github.com/THEb0nny/es-student
+   5.140 <-- board: pico
+   5.140 <-- serial: 5044506120A4911C
+   5.140 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.140 <-- pico-sdk: 2.3.1
+   5.140 <-- dbg main:104 got info
+   5.156 <-- project: 211-command-usb
+   5.156 <-- repo: https://github.com/THEb0nny/es-student
+   5.172 <-- board: pico
+   5.172 <-- serial: 5044506120A4911C
+   5.172 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.187 <-- pico-sdk: 2.3.1
+   5.187 <-- dbg main:104 got info
+   5.187 <-- project: 211-command-usb
+   5.203 <-- repo: https://github.com/THEb0nny/es-student
+   5.203 <-- board: pico
+   5.203 <-- serial: 5044506120A4911C
+   5.219 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.219 <-- pico-sdk: 2.3.1
+   5.219 <-- dbg main:104 got info
+   5.219 <-- project: 211-command-usb
+   5.234 <-- repo: https://github.com/THEb0nny/es-student
+   5.234 <-- board: pico
+   5.234 <-- serial: 5044506120A4911C
+   5.250 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.250 <-- pico-sdk: 2.3.1
+   5.250 <-- dbg main:104 got info
+   5.265 <-- project: 211-command-usb
+   5.265 <-- repo: https://github.com/THEb0nny/es-student
+   5.265 <-- board: pico
+   5.265 <-- serial: 5044506120A4911C
+   5.281 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.281 <-- pico-sdk: 2.3.1
+   5.281 <-- dbg main:104 got info
+   5.281 <-- project: 211-command-usb
+   5.297 <-- repo: https://github.com/THEb0nny/es-student
+   5.297 <-- board: pico
+   5.297 <-- serial: 5044506120A4911C
+   5.312 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.312 <-- pico-sdk: 2.3.1
+   5.312 <-- dbg main:104 got info
+   5.312 <-- project: 211-command-usb
+   5.312 <-- repo: https://github.com/THEb0nny/es-student
+   5.328 <-- board: pico
+   5.328 <-- serial: 5044506120A4911C
+   5.328 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.328 <-- pico-sdk: 2.3.1
+   5.328 <-- dbg main:104 got info
+   5.344 <-- project: 211-command-usb
+   5.344 <-- repo: https://github.com/THEb0nny/es-student
+   5.344 <-- board: pico
+   5.344 <-- serial: 5044506120A4911C
+   5.359 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.359 <-- pico-sdk: 2.3.1
+   5.359 <-- dbg main:104 got info
+   5.359 <-- project: 211-command-usb
+   5.375 <-- repo: https://github.com/THEb0nny/es-student
+   5.375 <-- board: pico
+   5.375 <-- serial: 5044506120A4911C
+   5.390 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.390 <-- pico-sdk: 2.3.1
+   5.406 <-- dbg main:104 got info
+   5.406 <-- project: 211-command-usb
+   5.422 <-- repo: https://github.com/THEb0nny/es-student
+   5.422 <-- board: pico
+   5.422 <-- serial: 5044506120A4911C
+   5.437 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.437 <-- pico-sdk: 2.3.1
+   5.453 <-- dbg main:104 got info
+   5.453 <-- project: 211-command-usb
+   5.469 <-- repo: https://github.com/THEb0nny/es-student
+   5.469 <-- board: pico
+   5.469 <-- serial: 5044506120A4911C
+   5.484 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.484 <-- pico-sdk: 2.3.1
+   5.500 <-- dbg main:104 got info
+   5.500 <-- project: 211-command-usb
+   5.515 <-- repo: https://github.com/THEb0nny/es-student
+   5.515 <-- board: pico
+   5.515 <-- serial: 5044506120A4911C
+   5.531 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.531 <-- pico-sdk: 2.3.1
+   5.531 <-- dbg main:104 got info
+   5.547 <-- project: 211-command-usb
+   5.547 <-- repo: https://github.com/THEb0nny/es-student
+   5.547 <-- board: pico
+   5.547 <-- serial: 5044506120A4911C
+   5.562 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.562 <-- pico-sdk: 2.3.1
+   5.562 <-- dbg main:104 got info
+   5.562 <-- project: 211-command-usb
+   5.578 <-- repo: https://github.com/THEb0nny/es-student
+   5.578 <-- board: pico
+   5.578 <-- serial: 5044506120A4911C
+   5.578 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.594 <-- pico-sdk: 2.3.1
+   5.594 <-- dbg main:104 got info
+   5.594 <-- project: 211-command-usb
+   5.609 <-- repo: https://github.com/THEb0nny/es-student
+   5.609 <-- board: pico
+   5.609 <-- serial: 5044506120A4911C
+   5.609 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.625 <-- pico-sdk: 2.3.1
+   5.625 <-- dbg main:104 got info
+   5.625 <-- project: 211-command-usb
+   5.640 <-- repo: https://github.com/THEb0nny/es-student
+   5.640 <-- board: pico
+   5.640 <-- serial: 5044506120A4911C
+   5.640 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.640 <-- pico-sdk: 2.3.1
+   5.656 <-- dbg main:104 got info
+   5.656 <-- project: 211-command-usb
+   5.656 <-- repo: https://github.com/THEb0nny/es-student
+   5.656 <-- board: pico
+   5.672 <-- serial: 5044506120A4911C
+   5.672 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.672 <-- pico-sdk: 2.3.1
+   5.672 <-- dbg main:104 got info
+   5.672 <-- project: 211-command-usb
+   5.687 <-- repo: https://github.com/THEb0nny/es-student
+   5.687 <-- board: pico
+   5.687 <-- serial: 5044506120A4911C
+   5.703 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.703 <-- pico-sdk: 2.3.1
+   5.703 <-- dbg main:104 got info
+   5.703 <-- project: 211-command-usb
+   5.703 <-- repo: https://github.com/THEb0nny/es-student
+   5.719 <-- board: pico
+   5.719 <-- serial: 5044506120A4911C
+   5.719 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.719 <-- pico-sdk: 2.3.1
+   5.719 <-- dbg main:104 got info
+   5.734 <-- project: 211-command-usb
+   5.734 <-- repo: https://github.com/THEb0nny/es-student
+   5.734 <-- board: pico
+   5.734 <-- serial: 5044506120A4911C
+   5.750 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.750 <-- pico-sdk: 2.3.1
+   5.750 <-- dbg main:104 got info
+   5.750 <-- project: 211-command-usb
+   5.750 <-- repo: https://github.com/THEb0nny/es-student
+   5.765 <-- board: pico
+   5.765 <-- serial: 5044506120A4911C
+   5.781 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.781 <-- pico-sdk: 2.3.1
+   5.781 <-- dbg main:104 got info
+   5.797 <-- project: 211-command-usb
+   5.797 <-- repo: https://github.com/THEb0nny/es-student
+   5.812 <-- board: pico
+   5.812 <-- serial: 5044506120A4911C
+   5.812 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.828 <-- pico-sdk: 2.3.1
+   5.828 <-- dbg main:104 got info
+   5.828 <-- project: 211-command-usb
+   5.844 <-- repo: https://github.com/THEb0nny/es-student
+   5.844 <-- board: pico
+   5.844 <-- serial: 5044506120A4911C
+   5.844 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.859 <-- pico-sdk: 2.3.1
+   5.859 <-- dbg main:104 got info
+   5.859 <-- project: 211-command-usb
+   5.859 <-- repo: https://github.com/THEb0nny/es-student
+   5.859 <-- board: pico
+   5.875 <-- serial: 5044506120A4911C
+   5.875 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.906 <-- pico-sdk: 2.3.1
+   5.906 <-- dbg main:104 got info
+   5.906 <-- project: 211-command-usb
+   5.922 <-- repo: https://github.com/THEb0nny/es-student
+   5.922 <-- board: pico
+   5.937 <-- serial: 5044506120A4911C
+   5.937 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.953 <-- pico-sdk: 2.3.1
+   5.953 <-- dbg main:104 got info
+   5.953 <-- project: 211-command-usb
+   5.953 <-- repo: https://github.com/THEb0nny/es-student
+   5.969 <-- board: pico
+   5.969 <-- serial: 5044506120A4911C
+   5.969 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   5.969 <-- pico-sdk: 2.3.1
+   5.984 <-- dbg main:104 got info
+   5.984 <-- project: 211-command-usb
+   5.984 <-- repo: https://github.com/THEb0nny/es-student
+   5.984 <-- board: pico
+   6.000 <-- serial: 5044506120A4911C
+   6.000 --> nosuchcommand
+   6.000 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.000 <-- pico-sdk: 2.3.1
+   6.015 <-- dbg main:104 got info
+   6.015 <-- project: 211-command-usb
+   6.031 <-- repo: https://github.com/THEb0nny/es-student
+   6.031 <-- board: pico
+   6.031 <-- serial: 5044506120A4911C
+   6.047 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.047 <-- pico-sdk: 2.3.1
+   6.047 <-- dbg main:104 got info
+   6.047 <-- project: 211-command-usb
+   6.062 <-- repo: https://github.com/THEb0nny/es-student
+   6.062 <-- board: pico
+   6.062 <-- serial: 5044506120A4911C
+   6.078 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.078 <-- pico-sdk: 2.3.1
+   6.078 <-- dbg main:104 got info
+   6.078 <-- project: 211-command-usb
+   6.078 <-- repo: https://github.com/THEb0nny/es-student
+   6.078 <-- board: pico
+   6.094 <-- serial: 5044506120A4911C
+   6.094 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.094 <-- pico-sdk: 2.3.1
+   6.094 <-- dbg main:104 got info
+   6.109 <-- project: 211-command-usb
+   6.109 <-- repo: https://github.com/THEb0nny/es-student
+   6.109 <-- board: pico
+   6.125 <-- serial: 5044506120A4911C
+   6.125 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.125 <-- pico-sdk: 2.3.1
+   6.125 <-- dbg main:104 got info
+   6.125 <-- project: 211-command-usb
+   6.140 <-- repo: https://github.com/THEb0nny/es-student
+   6.140 <-- board: pico
+   6.140 <-- serial: 5044506120A4911C
+   6.140 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.140 <-- pico-sdk: 2.3.1
+   6.156 <-- dbg main:104 got info
+   6.219 <-- project: 211-command-usb
+   6.281 <-- repo: https://github.com/THEb0nny/es-student
+   6.344 <-- board: pico
+   6.406 <-- serial: 5044506120A4911C
+   6.422 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.422 <-- pico-sdk: 2.3.1
+   6.422 <-- dbg main:104 got info
+   6.422 <-- project: 211-command-usb
+   6.437 <-- repo: https://github.com/THEb0nny/es-student
+   6.437 <-- board: pico
+   6.437 <-- serial: 5044506120A4911C
+   6.500 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.500 <-- pico-sdk: 2.3.1
+   6.500 <-- dbg main:104 got info
+   6.500 <-- project: 211-command-usb
+   6.515 <-- repo: https://github.com/THEb0nny/es-student
+   6.515 <-- board: pico
+   6.515 <-- serial: 5044506120A4911C
+   6.531 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.531 <-- pico-sdk: 2.3.1
+   6.531 <-- dbg main:104 got info
+   6.547 <-- project: 211-command-usb
+   6.578 <-- repo: https://github.com/THEb0nny/es-student
+   6.578 <-- board: pico
+   6.609 <-- serial: 5044506120A4911C
+   6.609 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.625 <-- pico-sdk: 2.3.1
+   6.625 <-- dbg main:104 got info
+   6.625 <-- project: 211-command-usb
+   6.640 <-- repo: https://github.com/THEb0nny/es-student
+   6.640 <-- board: pico
+   6.656 <-- serial: 5044506120A4911C
+   6.656 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.656 <-- pico-sdk: 2.3.1
+   6.672 <-- dbg main:104 got info
+   6.672 <-- project: 211-command-usb
+   6.687 <-- repo: https://github.com/THEb0nny/es-student
+   6.687 <-- board: pico
+   6.687 <-- serial: 5044506120A4911C
+   6.703 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.703 <-- pico-sdk: 2.3.1
+   6.703 <-- dbg main:104 got info
+   6.719 <-- project: 211-command-usb
+   6.719 <-- repo: https://github.com/THEb0nny/es-student
+   6.734 <-- board: pico
+   6.734 <-- serial: 5044506120A4911C
+   6.734 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.734 <-- pico-sdk: 2.3.1
+   6.750 <-- dbg main:104 got info
+   6.750 <-- project: 211-command-usb
+   6.750 <-- repo: https://github.com/THEb0nny/es-student
+   6.750 <-- board: pico
+   6.765 <-- serial: 5044506120A4911C
+   6.765 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.781 <-- pico-sdk: 2.3.1
+   6.781 <-- dbg main:104 got info
+   6.781 <-- project: 211-command-usb
+   6.797 <-- repo: https://github.com/THEb0nny/es-student
+   6.797 <-- board: pico
+   6.797 <-- serial: 5044506120A4911C
+   6.812 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.812 <-- pico-sdk: 2.3.1
+   6.828 <-- dbg main:104 got info
+   6.828 <-- project: 211-command-usb
+   6.828 <-- repo: https://github.com/THEb0nny/es-student
+   6.844 <-- board: pico
+   6.844 <-- serial: 5044506120A4911C
+   6.844 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.859 <-- pico-sdk: 2.3.1
+   6.859 <-- dbg main:104 got info
+   6.859 <-- project: 211-command-usb
+   6.875 <-- repo: https://github.com/THEb0nny/es-student
+   6.875 <-- board: pico
+   6.875 <-- serial: 5044506120A4911C
+   6.890 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.890 <-- pico-sdk: 2.3.1
+   6.890 <-- dbg main:104 got info
+   6.890 <-- project: 211-command-usb
+   6.906 <-- repo: https://github.com/THEb0nny/es-student
+   6.906 <-- board: pico
+   6.906 <-- serial: 5044506120A4911C
+   6.922 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.922 <-- pico-sdk: 2.3.1
+   6.937 <-- dbg main:104 got info
+   6.937 <-- project: 211-command-usb
+   6.937 <-- repo: https://github.com/THEb0nny/es-student
+   6.937 <-- board: pico
+   6.953 <-- serial: 5044506120A4911C
+   6.953 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.953 <-- pico-sdk: 2.3.1
+   6.953 <-- dbg main:104 got info
+   6.953 <-- project: 211-command-usb
+   6.969 <-- repo: https://github.com/THEb0nny/es-student
+   6.969 <-- board: pico
+   6.969 <-- serial: 5044506120A4911C
+   6.984 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   6.984 <-- pico-sdk: 2.3.1
+   6.984 <-- dbg main:104 got info
+   6.984 <-- project: 211-command-usb
+   7.000 <-- repo: https://github.com/THEb0nny/es-student
+   7.000 <-- board: pico
+   7.000 <-- serial: 5044506120A4911C
+   7.000 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.000 <-- pico-sdk: 2.3.1
+   7.000 <-- dbg main:104 got info
+   7.015 <-- project: 211-command-usb
+   7.015 <-- repo: https://github.com/THEb0nny/es-student
+   7.015 <-- board: pico
+   7.015 <-- serial: 5044506120A4911C
+   7.031 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.031 <-- pico-sdk: 2.3.1
+   7.031 <-- dbg main:104 got info
+   7.031 <-- project: 211-command-usb
+   7.031 <-- repo: https://github.com/THEb0nny/es-student
+   7.031 <-- board: pico
+   7.047 <-- serial: 5044506120A4911C
+   7.047 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.047 <-- pico-sdk: 2.3.1
+   7.047 <-- dbg main:104 got info
+   7.047 <-- project: 211-command-usb
+   7.062 <-- repo: https://github.com/THEb0nny/es-student
+   7.062 <-- board: pico
+   7.062 <-- serial: 5044506120A4911C
+   7.062 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.078 <-- pico-sdk: 2.3.1
+   7.078 <-- dbg main:104 got info
+   7.078 <-- project: 211-command-usb
+   7.078 <-- repo: https://github.com/THEb0nny/es-student
+   7.078 <-- board: pico
+   7.094 <-- serial: 5044506120A4911C
+   7.094 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.094 <-- pico-sdk: 2.3.1
+   7.094 <-- dbg main:104 got info
+   7.094 <-- project: 211-command-usb
+   7.109 <-- repo: https://github.com/THEb0nny/es-student
+   7.109 <-- board: pico
+   7.109 <-- serial: 5044506120A4911C
+   7.125 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.125 <-- pico-sdk: 2.3.1
+   7.125 <-- dbg main:104 got info
+   7.125 <-- project: 211-command-usb
+   7.125 <-- repo: https://github.com/THEb0nny/es-student
+   7.125 <-- board: pico
+   7.125 <-- serial: 5044506120A4911C
+   7.140 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.140 <-- pico-sdk: 2.3.1
+   7.140 <-- dbg main:104 got info
+   7.140 <-- project: 211-command-usb
+   7.156 <-- repo: https://github.com/THEb0nny/es-student
+   7.156 <-- board: pico
+   7.156 <-- serial: 5044506120A4911C
+   7.156 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.172 <-- pico-sdk: 2.3.1
+   7.172 <-- dbg main:104 got info
+   7.172 <-- project: 211-command-usb
+   7.172 <-- repo: https://github.com/THEb0nny/es-student
+   7.172 <-- board: pico
+   7.172 <-- serial: 5044506120A4911C
+   7.187 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.187 <-- pico-sdk: 2.3.1
+   7.187 <-- dbg main:104 got info
+   7.187 <-- project: 211-command-usb
+   7.187 <-- repo: https://github.com/THEb0nny/es-student
+   7.203 <-- board: pico
+   7.203 <-- serial: 5044506120A4911C
+   7.203 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.203 <-- pico-sdk: 2.3.1
+   7.203 <-- dbg main:104 got info
+   7.203 <-- project: 211-command-usb
+   7.219 <-- repo: https://github.com/THEb0nny/es-student
+   7.219 <-- board: pico
+   7.219 <-- serial: 5044506120A4911C
+   7.234 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.234 <-- pico-sdk: 2.3.1
+   7.250 <-- dbg main:104 got info
+   7.250 <-- project: 211-command-usb
+   7.250 <-- repo: https://github.com/THEb0nny/es-student
+   7.250 <-- board: pico
+   7.265 <-- serial: 5044506120A4911C
+   7.265 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.265 <-- pico-sdk: 2.3.1
+   7.265 <-- dbg main:104 got info
+   7.281 <-- project: 211-command-usb
+   7.281 <-- repo: https://github.com/THEb0nny/es-student
+   7.297 <-- board: pico
+   7.297 <-- serial: 5044506120A4911C
+   7.297 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.297 <-- pico-sdk: 2.3.1
+   7.297 <-- dbg main:104 got info
+   7.312 <-- project: 211-command-usb
+   7.312 <-- repo: https://github.com/THEb0nny/es-student
+   7.312 <-- board: pico
+   7.312 <-- serial: 5044506120A4911C
+   7.328 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.328 <-- pico-sdk: 2.3.1
+   7.328 <-- dbg main:104 got info
+   7.328 <-- project: 211-command-usb
+   7.344 <-- repo: https://github.com/THEb0nny/es-student
+   7.344 <-- board: pico
+   7.344 <-- serial: 5044506120A4911C
+   7.359 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.359 <-- pico-sdk: 2.3.1
+   7.359 <-- dbg main:104 got info
+   7.359 <-- project: 211-command-usb
+   7.359 <-- repo: https://github.com/THEb0nny/es-student
+   7.375 <-- board: pico
+   7.375 <-- serial: 5044506120A4911C
+   7.375 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.390 <-- pico-sdk: 2.3.1
+   7.390 <-- dbg main:104 got info
+   7.390 <-- project: 211-command-usb
+   7.406 <-- repo: https://github.com/THEb0nny/es-student
+   7.406 <-- board: pico
+   7.406 <-- serial: 5044506120A4911C
+   7.422 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.422 <-- pico-sdk: 2.3.1
+   7.422 <-- dbg main:104 got info
+   7.437 <-- project: 211-command-usb
+   7.437 <-- repo: https://github.com/THEb0nny/es-student
+   7.437 <-- board: pico
+   7.453 <-- serial: 5044506120A4911C
+   7.453 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.453 <-- pico-sdk: 2.3.1
+   7.453 <-- dbg main:104 got info
+   7.469 <-- project: 211-command-usb
+   7.469 <-- repo: https://github.com/THEb0nny/es-student
+   7.469 <-- board: pico
+   7.469 <-- serial: 5044506120A4911C
+   7.484 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.484 <-- pico-sdk: 2.3.1
+   7.484 <-- dbg main:104 got info
+   7.484 <-- project: 211-command-usb
+   7.500 <-- repo: https://github.com/THEb0nny/es-student
+   7.500 <-- board: pico
+   7.500 <-- serial: 5044506120A4911C
+   7.500 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.500 <-- pico-sdk: 2.3.1
+   7.500 <-- dbg main:104 got info
+   7.515 <-- project: 211-command-usb
+   7.515 <-- repo: https://github.com/THEb0nny/es-student
+   7.515 <-- board: pico
+   7.515 <-- serial: 5044506120A4911C
+   7.531 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.531 <-- pico-sdk: 2.3.1
+   7.531 <-- dbg main:104 got info
+   7.531 <-- project: 211-command-usb
+   7.531 <-- repo: https://github.com/THEb0nny/es-student
+   7.531 <-- board: pico
+   7.531 <-- serial: 5044506120A4911C
+   7.547 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.547 <-- pico-sdk: 2.3.1
+   7.547 <-- dbg main:104 got info
+   7.547 <-- project: 211-command-usb
+   7.547 <-- repo: https://github.com/THEb0nny/es-student
+   7.562 <-- board: pico
+   7.562 <-- serial: 5044506120A4911C
+   7.562 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.562 <-- pico-sdk: 2.3.1
+   7.562 <-- dbg main:104 got info
+   7.562 <-- project: 211-command-usb
+   7.578 <-- repo: https://github.com/THEb0nny/es-student
+   7.578 <-- board: pico
+   7.578 <-- serial: 5044506120A4911C
+   7.578 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.578 <-- pico-sdk: 2.3.1
+   7.594 <-- dbg main:104 got info
+   7.594 <-- project: 211-command-usb
+   7.594 <-- repo: https://github.com/THEb0nny/es-student
+   7.594 <-- board: pico
+   7.594 <-- serial: 5044506120A4911C
+   7.609 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.609 <-- pico-sdk: 2.3.1
+   7.609 <-- dbg main:104 got info
+   7.609 <-- project: 211-command-usb
+   7.609 <-- repo: https://github.com/THEb0nny/es-student
+   7.609 <-- board: pico
+   7.625 <-- serial: 5044506120A4911C
+   7.625 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.625 <-- pico-sdk: 2.3.1
+   7.625 <-- dbg main:104 got info
+   7.625 <-- project: 211-command-usb
+   7.625 <-- repo: https://github.com/THEb0nny/es-student
+   7.625 <-- board: pico
+   7.640 <-- serial: 5044506120A4911C
+   7.640 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.640 <-- pico-sdk: 2.3.1
+   7.640 <-- dbg main:104 got info
+   7.640 <-- project: 211-command-usb
+   7.656 <-- repo: https://github.com/THEb0nny/es-student
+   7.656 <-- board: pico
+   7.656 <-- serial: 5044506120A4911C
+   7.656 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.656 <-- pico-sdk: 2.3.1
+   7.656 <-- dbg main:104 got info
+   7.672 <-- project: 211-command-usb
+   7.672 <-- repo: https://github.com/THEb0nny/es-student
+   7.672 <-- board: pico
+   7.672 <-- serial: 5044506120A4911C
+   7.687 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.687 <-- pico-sdk: 2.3.1
+   7.687 <-- dbg main:104 got info
+   7.687 <-- project: 211-command-usb
+   7.687 <-- repo: https://github.com/THEb0nny/es-student
+   7.687 <-- board: pico
+   7.687 <-- serial: 5044506120A4911C
+   7.703 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.703 <-- pico-sdk: 2.3.1
+   7.703 <-- dbg main:104 got info
+   7.703 <-- project: 211-command-usb
+   7.719 <-- repo: https://github.com/THEb0nny/es-student
+   7.719 <-- board: pico
+   7.719 <-- serial: 5044506120A4911C
+   7.719 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.719 <-- pico-sdk: 2.3.1
+   7.719 <-- dbg main:104 got info
+   7.719 <-- project: 211-command-usb
+   7.734 <-- repo: https://github.com/THEb0nny/es-student
+   7.734 <-- board: pico
+   7.734 <-- serial: 5044506120A4911C
+   7.734 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.734 <-- pico-sdk: 2.3.1
+   7.734 <-- dbg main:104 got info
+   7.734 <-- project: 211-command-usb
+   7.750 <-- repo: https://github.com/THEb0nny/es-student
+   7.750 <-- board: pico
+   7.750 <-- serial: 5044506120A4911C
+   7.750 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.750 <-- pico-sdk: 2.3.1
+   7.765 <-- dbg main:104 got info
+   7.765 <-- project: 211-command-usb
+   7.765 <-- repo: https://github.com/THEb0nny/es-student
+   7.765 <-- board: pico
+   7.765 <-- serial: 5044506120A4911C
+   7.765 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.781 <-- pico-sdk: 2.3.1
+   7.781 <-- dbg main:104 got info
+   7.781 <-- project: 211-command-usb
+   7.781 <-- repo: https://github.com/THEb0nny/es-student
+   7.781 <-- board: pico
+   7.797 <-- serial: 5044506120A4911C
+   7.797 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.797 <-- pico-sdk: 2.3.1
+   7.797 <-- dbg main:104 got info
+   7.812 <-- project: 211-command-usb
+   7.812 <-- repo: https://github.com/THEb0nny/es-student
+   7.812 <-- board: pico
+   7.812 <-- serial: 5044506120A4911C
+   7.812 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.828 <-- pico-sdk: 2.3.1
+   7.828 <-- dbg main:104 got info
+   7.828 <-- project: 211-command-usb
+   7.828 <-- repo: https://github.com/THEb0nny/es-student
+   7.828 <-- board: pico
+   7.844 <-- serial: 5044506120A4911C
+   7.844 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.844 <-- pico-sdk: 2.3.1
+   7.844 <-- dbg main:104 got info
+   7.844 <-- project: 211-command-usb
+   7.859 <-- repo: https://github.com/THEb0nny/es-student
+   7.859 <-- board: pico
+   7.859 <-- serial: 5044506120A4911C
+   7.859 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.859 <-- pico-sdk: 2.3.1
+   7.859 <-- dbg main:104 got info
+   7.875 <-- project: 211-command-usb
+   7.875 <-- repo: https://github.com/THEb0nny/es-student
+   7.875 <-- board: pico
+   7.875 <-- serial: 5044506120A4911C
+   7.875 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   7.890 <-- pico-sdk: 2.3.1
+   7.890 <-- dbg main:104 got info
+   7.890 <-- project: 211-command-usb
+   7.890 <-- repo: https://github.com/THEb0nny/es-student
+   7.890 <-- board: pico
+   7.890 <-- serial: 5044506120A4911C
+   7.969 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+итог: отправлено команд 4, принято строк 1411
