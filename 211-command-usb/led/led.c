@@ -16,7 +16,6 @@ void led_set(bool on)
 {
     led_state = on;
     gpio_put(LED_PIN, led_state);
-    
 }
 
 void led_toggle(void)
@@ -27,4 +26,9 @@ void led_toggle(void)
 bool led_is_on(void)
 {
     return led_state;
+}
+
+uint led_pin(void)
+{
+    return LED_PIN;
 }

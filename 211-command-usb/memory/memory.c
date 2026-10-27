@@ -6,6 +6,7 @@
 #include "memory.h"
 #include "command.h"
 #include "device.h"
+#include "led.h"
 
 int main(void);
 
@@ -104,4 +105,25 @@ void fw_info(void)
     printf("%-16s 0x%08x  %u\n", "heap_variable", (unsigned)(uintptr_t)heap_variable, heap_variable != NULL ? (unsigned)*heap_variable : 0);
 
     free(heap_variable);
+}
+
+#define VECTOR_TABLE 0x10000100
+#define SIO_GPIO_IN 0xd0000004
+
+void boot_info(void)
+{
+    const uint32_t *vectors = (const uint32_t *)VECTOR_TABLE;
+    uint32_t stack_top = vectors[0];
+    uint32_t reset_handler = vectors[1];
+
+    volatile const uint32_t *gpio_in = (volatile const uint32_t *)SIO_GPIO_IN;
+    uint32_t level = (*gpio_in >> led_pin()) & 1u;
+
+    printf("%-15s0x%08x\n", "vector table", VECTOR_TABLE);
+    printf("%-15s0x%08x\n", "  stack top", (unsigned)stack_top);
+    printf("%-15s0x%08x\n", "  reset", (unsigned)reset_handler);
+    printf("%-15s0x%08x\n", "  reset (even)", (unsigned)(reset_handler & ~1u));
+    printf("%-15s0x%08x\n", "gpio in", SIO_GPIO_IN);
+    printf("%-15s%u\n", "  led bit", (unsigned)level);
+    printf("%-15s%u\n", "  gpio_get", (unsigned)gpio_get(led_pin()));
 }
