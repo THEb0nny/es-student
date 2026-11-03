@@ -65,6 +65,14 @@ void cmd_uptime(void) {
     uptime();
 }
 
+void cmd_clk_sys_low(void) {
+    clk_sys_low();
+}
+
+void cmd_clk_sys_default(void) {
+    clk_sys_default();
+}
+
 // прикидка: за член ряда 4 операции с double, 175 + 110 + 190 + 110 = 585 тактов;
 // 1 000 000 членов по 585 тактов при 125 МГц — около 4,7 с
 const uint CALC_PI_TERMS = 1000000;
@@ -118,7 +126,9 @@ const struct command_t commands[] = {
     { "uptime", cmd_uptime },
     { "calc_pi", cmd_calc_pi },
     { "main_time_exec", cmd_main_time_exec },
-    { "main_time_reset", cmd_main_time_reset }
+    { "main_time_reset", cmd_main_time_reset },
+    { "clk_sys_low", cmd_clk_sys_low },
+    { "clk_sys_default", cmd_clk_sys_default }
 };
 
 const uint command_count = sizeof(commands) / sizeof(commands[0]);
