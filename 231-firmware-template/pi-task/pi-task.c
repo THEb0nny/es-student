@@ -1,6 +1,6 @@
 #include "pi-task.h"
 #include <stddef.h>
-#include "pico/stdlib.h"
+#include "systime/systime.h"
 
 // прикидка: член ряда 4,7 мкс, 100 членов — около 0,47 мс, укладывается в 0,5 мс
 #define PI_TERMS_PER_CALL 100
@@ -37,7 +37,7 @@ bool pi_task_start(uint32_t terms)
     pi_k = 0;
     pi_sum = 0.0;
     pi_sign = 1.0;
-    pi_start_us = time_us_64();
+    pi_start_us = systime_us();
     pi_state = PI_STATE_RUNNING;
 
     return true;
@@ -89,7 +89,7 @@ void pi_task_handle(void)
     if (pi_k >= pi_n)
     {
         pi_result = 4.0 * pi_sum;
-        pi_spent_ms = (time_us_64() - pi_start_us) / 1000;
+        pi_spent_ms = (systime_us() - pi_start_us) / 1000;
         pi_state = PI_STATE_READY;
     }
 }

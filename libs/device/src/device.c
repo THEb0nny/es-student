@@ -1,10 +1,14 @@
-#include "device.h"
+#include "device/device.h"
 
 #include <stddef.h>
 #include "pico/unique_id.h"
 #include "pico/version.h"
 #include "hardware/regs/addressmap.h"
 #include "hardware/regs/sysinfo.h"
+
+#ifndef DEVICE_BOARD
+#define DEVICE_BOARD "unknown"
+#endif
 
 void device_get_info(device_info_t *info)
 {

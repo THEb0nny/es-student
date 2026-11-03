@@ -3,6 +3,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 
+// по умолчанию профилирование включено
 #ifndef PROFILING_ENABLED
 #define PROFILING_ENABLED 1
 #endif
@@ -28,6 +29,7 @@ void profiling_reset(void);
 
 #else
 
+// профилирование выключено: вызовы ничего не делают
 #define profiling_stopwatch_init(id, name) ((void)0)
 #define profiling_start(id) ((void)0)
 #define profiling_stop(id) ((void)0)
