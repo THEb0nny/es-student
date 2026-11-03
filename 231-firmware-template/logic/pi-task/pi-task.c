@@ -1,8 +1,7 @@
-#include "pi-task.h"
+#include "pi-task/pi-task.h"
 #include <stddef.h>
 #include "systime/systime.h"
 
-// прикидка: член ряда 4,7 мкс, 100 членов — около 0,47 мс, укладывается в 0,5 мс
 #define PI_TERMS_PER_CALL 100
 
 static pi_state_t pi_state = PI_STATE_NOT_STARTED;

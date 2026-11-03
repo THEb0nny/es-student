@@ -1,13 +1,13 @@
-#include <stdio.h>
-#include "pico/stdlib.h"
+#include <stddef.h>
 #include "firmware.h"
+#include "platform/platform.h"
 #include "logging/log.h"
-#include "led-task.h"
-#include "button-task.h"
-#include "pi-task.h"
 #include "profiling/profiling.h"
 #include "stdio-text-protocol/stdio-text-protocol.h"
-#include "api.h"
+#include "api/api.h"
+#include "led-task/led-task.h"
+#include "button-task/button-task.h"
+#include "pi-task/pi-task.h"
 
 typedef enum {
     STOPWATCH_LOOP,
@@ -18,14 +18,14 @@ typedef enum {
     STOPWATCH_COUNT,
 } stopwatch_id_t;
 
-int main()
+int main(void)
 {
-    stdio_init_all();
+    platform_init();
 
     LOG_INF("%s %s\n", FIRMWARE_NAME, FIRMWARE_VERSION);
 
     led_task_init();
-    button_task_init();
+    button_task_init(led_task_next_state);
     pi_task_init();
 
     profiling_stopwatch_init(STOPWATCH_LOOP, "loop");
