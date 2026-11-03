@@ -5,7 +5,9 @@
 typedef enum {
     PLATFORM_BUTTON_1,
     PLATFORM_BUTTON_2,
-    PLATFORM_BUTTON_COUNT,
+    PLATFORM_BUTTON_LED = PLATFORM_BUTTON_1,
+    PLATFORM_BUTTON_PERIOD = PLATFORM_BUTTON_2,
+    PLATFORM_BUTTON_COUNT = 2,
 } platform_button_t;
 
 void platform_init(void);

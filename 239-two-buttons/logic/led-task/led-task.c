@@ -57,6 +57,11 @@ void led_task_next_state(void)
     }
 }
 
+void led_task_blink(void)
+{
+    led_task_set_state(LED_STATE_BLINK);
+}
+
 bool led_task_set_period_ms(uint32_t period_ms)
 {
     if (period_ms == 0)
