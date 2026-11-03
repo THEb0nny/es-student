@@ -1,0 +1,63 @@
+задание: 2.2.2
+проект: 221-command-time
+устройство: 2e8a:000a
+серийный номер: 5044506120A4911C
+порт: COM6
+начало: 2026-11-03T13:12:44
+   0.000 --> uptime
+   0.000 <-- uptime
+   0.016 <-- dbg read_line:111 got uptime
+   0.016 <-- uptime: 13327 ms
+   0.422 --> boot_info
+   0.437 <-- boot_info
+   0.437 <-- dbg read_line:111 got boot_info
+   0.437 <-- vector table   0x10000100
+   0.437 <-- stack top    0x20042000
+   0.437 <-- reset        0x100001f7
+   0.437 <-- reset (even) 0x100001f6
+   0.437 <-- gpio in        0xd0000004
+   0.437 <-- led bit      1
+   0.437 <-- gpio_get     1
+   0.859 --> uptime
+   0.859 <-- uptime
+   0.859 <-- dbg read_line:111 got uptime
+   0.859 <-- uptime: 14178 ms
+   1.281 --> boot_info
+   1.281 <-- boot_info
+   1.281 <-- dbg read_line:111 got boot_info
+   1.281 <-- vector table   0x10000100
+   1.281 <-- stack top    0x20042000
+   1.281 <-- reset        0x100001f7
+   1.281 <-- reset (even) 0x100001f6
+   1.281 <-- gpio in        0xd0000004
+   1.281 <-- led bit      1
+   1.281 <-- gpio_get     1
+   1.687 --> uptime
+   1.687 <-- uptime
+   1.687 <-- dbg read_line:111 got uptime
+   1.687 <-- uptime: 15016 ms
+   2.094 --> boot_info
+   2.094 <-- boot_info
+   2.094 <-- dbg read_line:111 got boot_info
+   2.109 <-- vector table   0x10000100
+   2.109 <-- stack top    0x20042000
+   2.109 <-- reset        0x100001f7
+   2.109 <-- reset (even) 0x100001f6
+   2.109 <-- gpio in        0xd0000004
+   2.109 <-- led bit      0
+   2.109 <-- gpio_get     0
+   2.516 --> uptime
+   2.516 <-- uptime
+   2.516 <-- dbg read_line:111 got uptime
+   2.516 <-- uptime: 15845 ms
+   2.937 --> boot_info
+   2.937 <-- boot_info
+   2.937 <-- dbg read_line:111 got boot_info
+   2.937 <-- vector table   0x10000100
+   2.937 <-- stack top    0x20042000
+   2.937 <-- reset        0x100001f7
+   2.937 <-- reset (even) 0x100001f6
+   2.937 <-- gpio in        0xd0000004
+   2.937 <-- led bit      0
+   2.937 <-- gpio_get     0
+итог: отправлено команд 8, принято строк 48
