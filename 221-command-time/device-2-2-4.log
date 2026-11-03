@@ -1,0 +1,36 @@
+задание: 2.2.4
+проект: 221-command-time
+устройство: 2e8a:000a
+серийный номер: 5044506120A4911C
+порт: COM6
+начало: 2026-11-03T13:34:12
+   0.000 --> main_time_reset
+   0.016 <-- main_time_reset
+   0.016 <-- dbg read_line:156 got main_time_reset
+   0.016 <-- max reset
+   2.047 --> main_time_exec
+   2.047 <-- main_time_exec
+   2.047 <-- dbg read_line:156 got main_time_exec
+   2.047 <-- iteration avg 2.51 us, max 536 us
+   3.063 --> calc_pi
+   3.063 <-- calc_pi
+   3.063 <-- dbg read_line:156 got calc_pi
+   7.766 <-- pi: 3.14159165
+   7.766 <-- time: 4698 ms
+   9.188 --> main_time_exec
+   9.188 <-- main_time_exec
+   9.188 <-- dbg read_line:156 got main_time_exec
+   9.188 <-- iteration avg 5.66 us, max 4699144 us
+  14.313 --> main_time_exec
+  14.313 <-- main_time_exec
+  14.313 <-- dbg read_line:156 got main_time_exec
+  14.313 <-- iteration avg 2.64 us, max 4699144 us
+  15.344 --> main_time_reset
+  15.344 <-- main_time_reset
+  15.344 <-- dbg read_line:156 got main_time_reset
+  15.344 <-- max reset
+  16.375 --> main_time_exec
+  16.375 <-- main_time_exec
+  16.375 <-- dbg read_line:156 got main_time_exec
+  16.375 <-- iteration avg 2.59 us, max 258 us
+итог: отправлено команд 7, принято строк 22
