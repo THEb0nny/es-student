@@ -2,6 +2,7 @@
 #include "pico/stdlib.h"
 #include "led-task.h"
 #include "button-task.h"
+#include "pi-task.h"
 #include "profiling.h"
 #include "stdio-text-protocol.h"
 #include "api.h"
@@ -12,6 +13,7 @@ int main()
 
     led_task_init();
     button_task_init();
+    pi_task_init();
 
     profiling_init();
 
@@ -23,6 +25,7 @@ int main()
 
         button_task_handle();
         led_task_handle();
+        pi_task_handle();
 
         const command_t *command = stdio_text_protocol_handle();
         if (command != NULL)
