@@ -1,0 +1,71 @@
+#include "telemetry-task/telemetry-task.h"
+#include "platform/platform.h"
+#include "systime/systime.h"
+#include <stddef.h>
+
+static telemetry_state_t telemetry_state;
+static telemetry_task_callback_t telemetry_callback;
+static uint32_t telemetry_period_ms;
+static uint64_t telemetry_period_us;
+static uint64_t telemetry_last_us;
+
+void telemetry_task_init(telemetry_task_callback_t on_record)
+{
+    telemetry_callback = on_record;
+    telemetry_state = TELEMETRY_STATE_IDLE;
+    telemetry_period_ms = 100;
+    telemetry_period_us = 100000;
+    telemetry_last_us = 0;
+}
+
+bool telemetry_task_start(uint32_t period_ms)
+{
+    if (period_ms < 10)
+    {
+        return false;
+    }
+
+    telemetry_period_ms = period_ms;
+    telemetry_period_us = (uint64_t)period_ms * 1000;
+    telemetry_last_us = 0;
+    telemetry_state = TELEMETRY_STATE_RUN;
+    return true;
+}
+
+void telemetry_task_stop(void)
+{
+    telemetry_state = TELEMETRY_STATE_IDLE;
+}
+
+telemetry_state_t telemetry_task_get_state(void)
+{
+    return telemetry_state;
+}
+
+uint32_t telemetry_task_get_period_ms(void)
+{
+    return telemetry_period_ms;
+}
+
+void telemetry_task_handle(void)
+{
+    switch (telemetry_state)
+    {
+    case TELEMETRY_STATE_IDLE:
+        break;
+
+    case TELEMETRY_STATE_RUN:
+        if (systime_period_elapsed(&telemetry_last_us, telemetry_period_us))
+        {
+            telemetry_record_t record;
+            record.time_us = systime_us();
+            record.voltage_v = platform_voltage_read();
+            record.temp_c = platform_temp_read();
+            if (telemetry_callback != NULL)
+            {
+                telemetry_callback(&record);
+            }
+        }
+        break;
+    }
+}

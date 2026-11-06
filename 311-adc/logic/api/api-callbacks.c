@@ -12,6 +12,7 @@
 #include "button-task/button-task.h"
 #include "pi-task/pi-task.h"
 #include "platform/platform.h"
+#include "telemetry-task/telemetry-task.h"
 
 static bool parse_u32(const char *text, uint32_t *value)
 {
@@ -221,6 +222,58 @@ static void cmd_get_temp(const command_t *command)
     printf("temp: %.1f C\n", platform_temp_read());
 }
 
+#define TELEMETRY_DEFAULT_PERIOD_MS 100
+
+void api_print_telemetry(const telemetry_record_t *record)
+{
+    if (record == NULL)
+    {
+        return;
+    }
+    printf("tm: %llu %.3f %.1f\n", record->time_us, record->voltage_v, record->temp_c);
+}
+
+static void cmd_tm_start(const command_t *command)
+{
+    uint32_t period_ms = TELEMETRY_DEFAULT_PERIOD_MS;
+
+    if (command->argc > 1)
+    {
+        printf("error: usage tm_start [<period_ms>]\n");
+        return;
+    }
+
+    if (command->argc == 1)
+    {
+        if (!parse_u32(command->argv[0], &period_ms))
+        {
+            printf("error: usage tm_start [<period_ms>]\n");
+            return;
+        }
+
+        if (period_ms < 10)
+        {
+            printf("error: period_ms must be at least 10\n");
+            return;
+        }
+    }
+
+    if (!telemetry_task_start(period_ms))
+    {
+        printf("error: period_ms must be at least 10\n");
+        return;
+    }
+
+    printf("telemetry: started, period %u ms\n", (unsigned)period_ms);
+}
+
+static void cmd_tm_stop(const command_t *command)
+{
+    (void)command;
+    telemetry_task_stop();
+    printf("telemetry: stopped\n");
+}
+
 const api_command_t api_commands[] = {
     { "info", "device passport", cmd_info },
     { "uptime", "time since reset", cmd_uptime },
@@ -234,7 +287,9 @@ const api_command_t api_commands[] = {
     { "profiling", "stopwatch profiling: profiling", cmd_profiling },
     { "profiling_reset", "reset profiling stopwatches", cmd_profiling_reset },
     { "get_voltage", "voltage on GP26, ADC input 0", cmd_get_voltage },
-    { "get_temp", "chip temperature, degrees Celsius", cmd_get_temp }
+    { "get_temp", "chip temperature, degrees Celsius", cmd_get_temp },
+    { "tm_start", "start telemetry: tm_start [<period_ms>]", cmd_tm_start },
+    { "tm_stop", "stop telemetry", cmd_tm_stop }
 };
 
 const uint32_t api_command_count = sizeof(api_commands) / sizeof(api_commands[0]);
